@@ -1,0 +1,58 @@
+.SearchHistory {
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.SearchHistory-Light {
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.SearchHistory-Dark {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.SearchHistory-header {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: medium;
+}
+
+.SearchHistory-body {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.SearchHistoryItem {
+  font-size: medium;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.SearchHistoryItem-Light {
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.SearchHistoryItem-Dark {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.SearchHistoryItem-divider {
+  margin: auto;
+}
+
+.SearchHistoryItem-text {
+  text-align: left;
+}
+
+.SearchHistoryItem-request-datetime {
+  font-size: small;
+}
